@@ -1,4 +1,4 @@
 # MOSH
 
-<img src='images.jpeg'/> 
+<img src='images.png'/> 
 
