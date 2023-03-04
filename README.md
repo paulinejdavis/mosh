@@ -10,7 +10,7 @@
 * NPM (8.19.2)
 
 
-Typescript setup:
+### Typescript setup:
 
 ```
 npm i - g typescript || sudo npm i - g typescript
@@ -20,6 +20,8 @@ tsc
 node dist/index.js
 
 ```
+
+### What's covered:
 
 ```
 
