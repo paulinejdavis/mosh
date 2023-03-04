@@ -3,7 +3,7 @@
 <img src='images.png'/> 
 
 
-## Tech stack
+### Tech stack
 
 * [Typescript](https://www.typescriptlang.org) for front & back-end
 * [Node.js](https://nodejs.org/en/) for the server environment(v18.12)
