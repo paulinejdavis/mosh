@@ -20,3 +20,31 @@ tsc
 node dist/index.js
 
 ```
+
+```
+
+Introduction
+Prerequisites
+How to Take This Course
+What is TypeScript?
+Setting Up the Development Environment 
+Your First TypeScript Program
+Configuring the TypeScript Compiler 
+Debugging TypeScript Applications 
+Fundamentals
+Built-In Types
+The any Type
+Arrays
+Tuples
+Enums
+Functions
+Objects
+Advanced Types
+Type Aliases
+Union Types 
+Intersection Types 
+Literal Types 
+Nullable Types 
+Optional Chaining
+
+```

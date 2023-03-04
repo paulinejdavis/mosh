@@ -1,5 +1,7 @@
 // console.log('Hello World!')
 
+// import { isTypeOperatorNode } from "typescript"
+
 // let age: number = 20
 // if (age > 50) {
 //   age += 10
@@ -63,6 +65,108 @@
 
 // objects
 
-let employee = { id: 1}
+// let employee: { 
+//     readonly id: number,
+//     name: string
+//     retire: (date: Date) => void
 
-employee name = 'John'
+// } = { 
+//     id: 1, 
+//     name: 'John' ,
+//     retire: (date: Date) => {
+        
+//         console.log(date)
+//     }
+// }
+
+
+// type alias - dont repeat yourself
+// type Employee = {
+//     readonly id: number,
+//     name: string
+//     retire: (date: Date) => void
+// }
+
+// let employee: Employee = { 
+//     id: 1, 
+//     name: 'John' ,
+//     retire: (date: Date) => {
+//         console.log(date)
+//     }
+// }
+
+// Union types
+
+// function kgToLbs(weight: number | string) : number{
+// //   Narrowing
+//     if (typeof weight === 'number') 
+//          return weight * 2.2
+//      else {
+//         return parseInt(weight) * 2.2
+
+//     }   
+// }
+
+// kgToLbs(10);
+// kgToLbs('10kg');
+
+// intersection types combine two types
+// type Draggable = {
+//     drag: () => void
+// }
+// type Resizable = {
+//     resize: () => void
+// }
+
+// type UIWidget = Draggable & Resizable
+
+// let widget: UIWidget = {
+//     drag: () => {},
+//     resize: () => {}
+// }
+
+// literal types (Exact, specific values)
+
+// type Quantity = 50 | 100
+// let quantity:  Quantity = 100
+
+// type Metric = 'cm' | 'inch'
+
+// nullable types - non values common sort of bugs
+
+// function greet(name: string | null | undefined) {
+//     if (name)
+//     console.log(name.toLowerCase())
+//     else
+//     console.log('Hola!')
+// }
+
+// greet(undefined)
+
+
+// optional chaining null checks
+
+// type Customer = {
+//     birthday?: Date
+// }
+
+// function getCustomer(id: number): Customer | null | undefined {
+//     return id === 0 ? null : { birthday: new Date() } 
+// }
+
+// let customer = getCustomer(1)
+// // if (customer !== null && customer !== undefined) 
+// // use optional property access
+// console.log(customer?.birthday?.getFullYear())
+
+// // optional element access 
+// // if customer not null or undefined
+// // use ? and . to access properties
+
+
+// let log: any = null
+// log?.('a')
+
+
+
+
